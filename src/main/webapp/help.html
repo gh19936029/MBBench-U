@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../img/favicon.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>帮助文档</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/paper-dashboard.css" rel="stylesheet"/>
+    <link href="css/demo.css" rel="stylesheet" />
+    <link href="css/documentation.css" rel="stylesheet" />
+	<link href="css/animate.min.css" rel="stylesheet" />
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="css/themify-icons.css" rel="stylesheet">
+</head>
+
+<body class="nude">
+
+
+
+<div class="header-wrapper">
+        <nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-color-on-scroll" role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a>
+                   <div class="logo-container">
+                        <div class="brand">
+                            	帮助文档
+                        </div>
+                    </div>
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse text-center">
+				<ul class="nav navbar-nav navbar-center">
+					<li>
+						<div class="navbar-title hidden text-center">
+							<h4>
+								MBBench-U 非结构化数据库管理评测系统
+							</h4>
+						</div>
+					</li>
+				</ul>
+				<ul  class="nav navbar-nav navbar-right">
+				    <li>
+						<a href="sysinfo.html"><i class="ti-exchange-vertical"></i><p>返回系统说明</p></a>
+				    </li>
+					<li>
+						<a href="javascript:history.go(-1)"><i class="ti-back-right"></i><p>返回上层界面</p>
+						</a>
+					</li>
+				</ul>
+
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+        <div class="header">
+            <div class="filter"></div>
+            <div class="title-container text-center">
+                    <h1>MBBench-U非结构化数据库管理评测系统</h1>
+                    <br/>
+                    <h3>帮助文档界面</h3>
+                    <br/>
+                    <br/>
+                   	<div>
+                    	&copy; <script>document.write(new Date().getFullYear())</script>, 制作者<i class="fa fa-heart heart"></i> by 数据工程与知识工程实验室. 版权属于 中国人民大学信息学院
+                	</div>
+            </div>
+        </div>
+</div>
+
+
+<div class="wrapper">
+
+    <div class="main">
+        <div class="section section-white">
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="fixed-section affix-top" data-spy="affix" data-offset-top="390">
+                <ul id="menuresize">
+					<li><a href="#system-info">系统简介</a></li>
+					<li><a href="#datagen-info">数据生成部分</a></li>
+                    <ul style="margin-left: -25px;">
+                    	<li><a href="#inidatagen-info">初始化生成</a></li>
+                    	<li><a href="#hisdatagen-info">历史记录生成</a></li>
+                    </ul>          
+                    <li><a href="#workload-info">负载测试部分</a></li>
+                    <li><a href="#result-info">结果查看部分</a></li>
+                 
+
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-1">
+            <div class="space-top"></div>
+            <div class="tim-container" style="min-height: 2000px;">
+<div class="tim-row">
+	<div id="system-info"></div>
+	<h2 class="text-center">系统简介</h2>
+	<legend></legend>
+	<p>
+	“工业大数据非结构化数据库系统评测工具——MBBench-U”是一款针对高端制造业的数据特征与特点，制定非结构化数据管理系统的测试工具。该测试工具以”仿真实验结果文件”为数据原型，以”海量小文件存储与管理”为主题，以高端制造业对非结构化数据管理的需要为应用场景。
+	<br /><br />
+	系统评测工具由数据生成、负载测试和结果查看三个部分组成，其中数据生成部分可作为一个独立应用，便于用户快速生成海量小文件及相应元数据文件。负载测试部分不仅选取了通用的非结构化功能测试，还根据工业领域中的制造业在非结构化数据的典型应用，设计相应的负载功能。结果查看将相应数据以表格、图形显示，使用户对结果内容有更直观、清晰的理解。
+	</p>
+</div>
+
+<div class="tim-row">
+	<h2 class="text-center">评测工具特点</h2>
+	<legend></legend>
+	<p>
+		1.将数据生成、负载评测及结果显示集合与一体，形成完成评测体系；
+	</p>
+	<p>
+		2.评测工具设计考量工业领域中的制造业在非结构化数据的典型应用，所设计的数据格式、内容及负载功能与实际需求接轨；
+	</p>
+	<p>
+		3.评测工具采用B/S设计机制，使得评测工具易于部署、使用。
+	</p>
+</div>
+
+<div class="tim-row">
+	<h2 class="text-center">评测工具运行环境</h2>
+	<legend></legend>
+		<p>
+			“MBBench-U”评测工具在数据生成和负载测试方面由于采用多线程方式处理，因此对于计算机的硬件有一定的要求，具体如下：
+		</p>
+		
+		<p>
+		1. CPU要求：Core I5 2300及以上的处理器。
+		<br/>
+		2. 内存：至少4GB。
+		<br/>
+		3. 硬盘空间：加上系统环境配置及文件生成和下载，至少500GB。
+		<br/>
+		4. “MBBench-U”评测工具的运行于Tomcat服务器上，因此对于计算机的软件环境要求操作系统内已安装并配置好Tomcat。
+		</p>
+</div>
+
+<!-- datagen row -->
+<div class="tim-row">
+    <div id="datagen-info"></div>
+        <h2 class="text-center">数据生成部分</h2>
+        <legend></legend>
+        <p>
+		数据生成方式总共有两种，一种是通过修改XML配置文件及在海量文件生成界面上填写生成参数生成数据；另一种是根据历史参数配置记录文件生成更新数据文件。两种数据生成方式的具体操作说明如下：
+	</p> 
+	<div class="tim-row">	
+		<div id="inidatagen-info"></div>
+		<h4>初始化生成：通过修改XML配置文件及填写参数生成数据</h4>
+		<legend style="margin-top: 25px;margin-bottom: 25px;"></legend>
+		<p>
+		<b>1. 修改XML配置文件。</b><br/>
+		<p style="margin-top: 10px;">可以设置产生数据的个数、相关风速的时间，并添加或修改地区的名称、该地区的基本风速、最大渐变风风速等数值。修改示例如下图所示：</p>	
+	</p>
+	<img src="img/1.jpg"/>
+	<p align="center" style="margin-top: 10px;margin-bottom: 20px;">图1 XML配置文件图</p>
+	<p>
+		windsetting属性列内，从上到下的数值依次表示：数据个数、阵风开始时间、阵风持续周期、渐变风渐变开始时间、渐变风渐变结束时间、渐变风持续时间及当前输送电线的电压值。	
+		<br/>
+		areaname属性列内，从上到下的数值依次表示：区域名称、区域平均风速、区域阵风风速峰值、区域渐变风风速峰值和区域瞬间风速峰值。
+	</p>
+	<p>
+		<b>2. 在海量文件生成界面上设置参数。</b><br/>
+		<p style="margin-top: 10px;">首先对文件存储路径、设备数量、仿真文件参数等基本参数进行设置，基本参数设置界面如下图所示：</p>
+	</p>
+	<img src="img/2.jpg" width="750px"/>
+	<p align="center" style="margin-top: 10px;margin-bottom: 20px;">图2 基本参数设置图</p>
+	<p>
+		输入文件存储路径，并选择元数据文件的类型。有三种文件类型供用户选择，分别是TXT、JSON和XML，至少选择其中一种作为元数据仿真分析结果文件的数据文件。
+		然后输入仿真设备数量，建议设置的数值不要过小，增加文件属性的多样。设置每一个仿真设备所产生的文件数量及更新文件数量，注意更新文件数量不可超过文件数量，后面每次在生成更新数量时也是如此。
+		最后输入仿真设备的三个参数范围设置，分别是塔架高度、扇叶长度和扇叶宽度。这里面的数值都是正整数，并且两个正整数之间用”-”分割。
+	</p>
+	<p style="margin-top: 20px;">
+		之后是仿真文件大小的设置，设置文件大小示例如下图所示：
+		<br/>
+	</p>
+	<img src="img/3.jpg" width="750px"/>
+	<p align="center" style="margin-top: 10px;margin-bottom: 20px;">图3 文件大小设置图</p>
+	<p>
+		在“设置文件分配数量”下的文本框内输入一个正整数，表示文件大小的分配数量，点击“生成设置文件”按钮弹出设置栏，设置栏内依次输入文件大小及所占比例，这些数字均可为非负且非零的浮点数。
+		<br/>
+	</p>
+	<p style="margin-top: 20px;">
+		接着进行仿真时间的设置，设置仿真时间示例如下图所示：
+		<br/>
+	</p>
+	<img src="img/4.jpg" width="750px"/>
+	<p align="center" style="margin-top: 10px;margin-bottom: 20px;">图4 仿真时间设置图</p>
+	<p>
+		点击”刷新信息”按钮，在右侧的“生成文件信息”框架内会显示当前生成文件的数量及预估文件大小，示例如下图所示：
+	</p>
+	<img hspace="220" src="img/5.jpg"/>
+	<p align="center" style="margin-top: 10px;margin-bottom: 20px;">图5 生成文件信息图</p>
+	<p>
+		设置的信息确认无误后，点击”生成文件”按钮，文件即可生成，文件生成过程示例下图所示：
+		<br/>
+	</p>
+	<img src="img/6.jpg" width="750px"/>
+	<p align="center" style="margin-top: 10px;margin-bottom: 20px;">图6 文件生成过程图</p>
+	</div>	
+	<div class="tim-row">	
+		<div id="hisdatagen-info"></div>
+		<h4>历史记录生成：根据历史参数记录文件生成更新数据</h4>	
+		<legend style="margin-top: 25px;margin-bottom: 25px;"></legend>
+	<p>
+		每一次配置数据文件时都会在”HistorySettings”目录下存储生成记录，包括仿真设备数量、文件数量、文件大小及分布情况等。用户可在海量文件生成界面下，点击“使用已有的配置”下的“使用”按钮，即可获取最新的五次生成记录，如下图所示：
+		<br/>
+	</p>
+	<img src="img/7.jpg" width="750px"/>
+	<p align="center" style="margin-top: 10px;margin-bottom: 20px;">图7 历史生成记录图</p>
+	<p>
+		根据历史记录填写了文件存储路径以及元数据文件的类型后，选择数据生成内容，有两种数据生成方式，可以按照原设置的文件数量继续生成，也可以设置新的文件数量。两种数据生成方式下的“确认信息”示例如下图所示：
+		<br/>
+	</p>
+	<img hspace="220" src="img/8.jpg"/>
+	<p align="center" style="margin-top: 10px;margin-bottom: 20px;">图8 原设置确认图</p>
+	<img hspace="220" src="img/9.jpg"/>
+	<p align="center" style="margin-top: 10px;margin-bottom: 20px;">图9 新设置确认图</p>
+</div>	
+</div>
+      
+<!-- workload row -->
+<div class="tim-row">
+    <div id="workload-info"></div>
+        <h2 class="text-center">负载测试部分</h2>
+        <legend></legend>
+       
+</div>
+
+<!-- result row -->
+<div class="tim-row">
+    <div id="result-info"></div>
+        <h2 class="text-center">结果查看部分</h2>
+        <legend></legend>
+            
+</div>
+
+</div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+</div>
+
+</body>
+
+	<!--   Core JS Files. Extra: PerfectScrollbar + TouchPunch libraries inside jquery-ui.min.js   -->
+	<script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!--  Checkbox, Radio, Switch and Tags Input Plugins -->
+	<script src="js/bootstrap-checkbox-radio.js"></script>
+
+	<!--  Charts Plugin -->
+	<script src="js/chartist.min.js"></script>
+
+	<!--  Notifications Plugin    -->
+	<script src="js/bootstrap-notify.js"></script>
+
+
+	<!-- Paper Dashboard PRO Core javascript and methods for Demo purpose -->
+	<script src="js/paper-dashboard.js"></script>
+
+	<!-- Paper Dashboard PRO DEMO methods, don't include it in your project! -->
+	<script src="js/demo.js"></script>
+
+
+    <script>
+		$(window).on('scroll', pd.checkScrollForTransparentNavbar);
+
+        $().ready(function(){
+
+            //activate the tooltips after the data table is initialized
+            $('[rel="tooltip"]').tooltip();
+
+            //for chartist
+            demo.initChartist();
+
+
+            //for google map
+            // Regular Map
+            var myLatlng = new google.maps.LatLng(40.748817, -73.985428);
+            var mapOptions = {
+                zoom: 8,
+                center: myLatlng,
+                scrollwheel: false, //we disable de scroll over the map, it is a really annoing when you scroll through page
+            }
+
+            var map = new google.maps.Map(document.getElementById("regularMap"), mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                title:"Regular Map!"
+            });
+
+            marker.setMap(map);
+
+
+
+            });
+
+        function showNotification(from, align){
+        	color = Math.floor((Math.random() * 4) + 1);
+
+        	$.notify({
+            	icon: "ti-gift",
+            	message: "Welcome to <b>Paper Dashboard PRO</b> - a beautiful dashboard for your next project."
+
+            },{
+                type: type[1],
+                timer: 4000,
+                placement: {
+                    from: from,
+                    align: align
+                }
+            });
+        }
+    </script>
+
+</html>

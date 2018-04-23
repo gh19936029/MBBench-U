@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MBBench-U:war exploded">
+    <output-path>$PROJECT_DIR$/target/MBBench-U</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MBBench-U" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.jms:jms:1.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:7.0.79" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:7.0.79" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.3" />
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.json:org.json:chargebee-1.0" />
+          <element id="library" level="project" name="Maven: org.fusesource:sigar:1.6.4" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongo-java-driver:3.4.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/MBBench-U/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="MBBench-U/web/Web" />
+    </root>
+  </artifact>
+</component>

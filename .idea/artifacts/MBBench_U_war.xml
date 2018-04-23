@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MBBench-U:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="MBBench-U.war">
+      <element id="artifact" artifact-name="MBBench-U:war exploded" />
+    </root>
+  </artifact>
+</component>
